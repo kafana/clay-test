@@ -4,7 +4,7 @@
   "description": "Clay test",
   "main": "app.js",
   "scripts": {
-    "start": "CLAY_STORAGE_POSTGRES_HOST=loclhost CLAY_STORAGE_POSTGRES_DB=clay CLAY_STORAGE_POSTGRES_USER=clay node app.js"
+    "start": "CLAY_STORAGE_POSTGRES_HOST=localhost CLAY_STORAGE_POSTGRES_DB=clay CLAY_STORAGE_POSTGRES_USER=clay node app.js"
   },
   "repository": {
     "type": "git",
