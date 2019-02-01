@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Clay test",
   "main": "app.js",
+  "scripts": {
+    "start": "CLAY_STORAGE_POSTGRES_HOST=loclhost CLAY_STORAGE_POSTGRES_DB=clay CLAY_STORAGE_POSTGRES_USER=clay node app.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kafana/clay-test.git"
@@ -15,8 +18,7 @@
     "amphora-html": "^4.0.2",
     "amphora-search": "^6.2.0",
     "amphora-storage-postgres": "^1.2.0",
-    "clay-kiln": "^8.3.3",
-    "package.json": "^2.0.1"
+    "clay-kiln": "^8.3.3"
   },
   "devDependencies": {}
 }
